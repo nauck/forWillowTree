@@ -5,22 +5,22 @@
 	* chromedriver or any other drivers for your browser
 	* pytest-html
 	
-Both pytest and pytest-selenium packages can be obtained using pip3
+# use pip3 to install the packages
 $ pip3 install pytest
 $ pip3 install pytest-selenium
 
-Running Tests:
+# run one test
 To run individual script:
 pytest <script_name> --driver chrome --driver-path ./chromedriver 
 
-To run entire suite:
+# run entire suite
 pytest --driver chrome --driver-path ./chromedriver
 
-You can also replace chrome and the correspoding path with the browser you are testing against.
+# To run in other browsers replace chrome and with other browsers
 eg. pytest --driver safari --driver-path ./safaridriver
 
-For generating the report:
+# generate summary
 pytest --html=report.html --driver chrome --driver-path ./chromedriver
 
-Bonus Question:
+# Bonus
 The shortest sleeptime that can be allowed is 3.5 seconds.	
