@@ -10,7 +10,6 @@ $ pip3 install pytest
 $ pip3 install pytest-selenium
 
 # Run single test
-To run individual script:
 pytest <script_name> --driver chrome --driver-path ./chromedriver 
 
 # Run entire suite
