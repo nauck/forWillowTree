@@ -7,18 +7,17 @@
 	
 # Use pip3 to install packages
 $ pip3 install pytest
-$ pip3 install pytest-selenium
 
-# Run single test
+# Run single test script
 pytest <script_name> --driver chrome --driver-path ./chromedriver 
 
-# Run entire suite
+# Run entire test suite
 pytest --driver chrome --driver-path ./chromedriver
 
-# Run in other browsers replace chrome and with other browsers
+# To run in other browsers, replace chrome and with browser name
 eg. pytest --driver safari --driver-path ./safaridriver
 
-# Generate summary
+# To generate summary report
 pytest --html=report.html --driver chrome --driver-path ./chromedriver
 
 # Bonus
